@@ -1,6 +1,6 @@
 .paragraph{
     height: 300px;
-    width: 30%;
+    width: 100%;
     border-radius: 10px;
     padding: 20px 20px 15px 15px;
     color: #ffffff;
@@ -17,4 +17,17 @@
 .p_3{
     background-image: url("/imgs/pink.jpg");
     color: #000000;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .paragraph{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .paragraph{
+        width: 29.8%;
+        float: left;
+    }
 }
