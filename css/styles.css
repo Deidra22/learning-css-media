@@ -1,0 +1,20 @@
+.paragraph{
+    height: 300px;
+    width: 30%;
+    border-radius: 10px;
+    padding: 20px 20px 15px 15px;
+    color: #ffffff;
+}
+
+.p_1{
+    background-image: url("/imgs/blue.jpg");
+}
+
+.p_2{
+    background-image: url("/imgs/leaves.jpg");
+}
+
+.p_3{
+    background-image: url("/imgs/pink.jpg");
+    color: #000000;
+}
